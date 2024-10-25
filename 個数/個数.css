@@ -3,7 +3,7 @@
     color: rgb(83, 83, 83);
     font-size: 18px;
     background-color: #ffea2c;
-    border-radius: 20px; /* 丸みを持たせる */
+    border-radius: 20px;
     max-width: 600px; margin: auto; padding: 15px; 
 }
 
@@ -29,17 +29,17 @@ h2, h3 {
      text-align: center; 
     }
     button {
-        background-color: #FF6F61; /* ボタン背景色 */
-        color: white; /* ボタン文字色 */
-        border: none; /* ボーダー消す
-        padding: 10px 15px; /* パディングを追加 */
+        background-color: #FF6F61;
+        color: white; 
+        border: none; 
+        padding: 10px 15px; 
         border-radius: 5px;
-        cursor: pointer; /* カーソルをポインターに */
-        transition: background-color 0.3s; /* ホバー時のトランジション */
+        cursor: pointer;
+        transition: background-color 0.3s;
     }
     
     button:hover {
-        background-color: #FF4C36; /* ホバー時の色を変更 */
+        background-color: #FF4C36;
     }
 .ingredients-box {
      background-color:  #ffffff;
