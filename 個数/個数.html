@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="個数.css">
+    <script src="個数.js" defer></script>
+    <title>分量計算</title>
+</head>
+<body>
+    <div class="container">
+        <h2>[料理名]</h2>
+    
+        <input type="number" id="numPeople" value="" min="1" placeholder="2" onchange="updateResults()">
+        <label for="numPeople">人分</label>
+        <button id="calculateBtn">人数分で計算</button>
+
+        <div class="ingredients-box">
+            <p id="eggDisplay">卵: 1.0個</p>
+            <p id="milkDisplay">牛乳: 200ml</p>
+            <p id="nilaDisplay">ニラ: 1束</p>
+        </div>
+    
+        <h3>余った卵の活用レシピ</h3>
+
+        <div class="otherrecipe">
+            <a href="egg-1.html">
+            <img src="image/egg-1.jpg" alt="だし巻き卵" width="120">
+            <p>ミニだし巻き卵</p>
+            </a>
+            <div class="cooktime"><p>5分</p>
+            </div>
+        </div>
+
+        <div class="otherrecipe">
+            <a href="egg-1.html">
+            <img src="image/egg-1.jpg" alt="だし巻き卵" width="120">
+            <p>レンジでスクランブルエッグ</p>
+            </a>
+            <div class="cooktime"><p>5分</p>
+            </div>
+        </div>
+
+        <div class="otherrecipe">
+            <a href="egg-1.html">
+            <img src="image/egg-1.jpg" alt="だし巻き卵" width="120">
+            <p>甘辛たまごそぼろ</p>
+            </a>
+            <div class="cooktime"><p>5分</p>
+            </div>
+        </div>
+
+    </div>
+</body>

@@ -1,0 +1,70 @@
+
+.container {
+    color: rgb(83, 83, 83);
+    font-size: 18px;
+    background-color: #ffea2c;
+    border-radius: 20px; /* 丸みを持たせる */
+    max-width: 600px; margin: auto; padding: 15px; 
+}
+
+p {
+    color: black;
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+body {
+     font-family: Arial, sans-serif; 
+    }
+
+input {
+     width: 50px; margin-left: 10px; 
+    } /* 入力欄 */
+
+.ingredient {
+     margin: 5px 0; 
+    }
+
+h2, h3 {
+     text-align: center; 
+    }
+    button {
+        background-color: #FF6F61; /* ボタン背景色 */
+        color: white; /* ボタン文字色 */
+        border: none; /* ボーダー消す
+        padding: 10px 15px; /* パディングを追加 */
+        border-radius: 5px;
+        cursor: pointer; /* カーソルをポインターに */
+        transition: background-color 0.3s; /* ホバー時のトランジション */
+    }
+    
+    button:hover {
+        background-color: #FF4C36; /* ホバー時の色を変更 */
+    }
+.ingredients-box {
+     background-color:  #ffffff;
+      padding: 10px; margin-top: 20px; 
+      border-radius: 20px;
+}
+.other{
+    background-color: #ffe8a7;
+    max-width: 600px; margin: auto; padding: 15px; 
+}
+
+.otherrecipe {
+    background-color: #ffea2c;
+    width: 160px;
+    height: 200px;
+    float:left
+    
+}
+.otherrecipe img {
+    margin-right: 10px;
+    border-radius: 5px;
+}
+
+#result {
+     font-weight: bold; text-align: center; 
+    }
+
+

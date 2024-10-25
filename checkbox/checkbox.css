@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.info {
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #c49a88;
+    border-radius: 20px;
+    
+}
+
+h1, h3 {
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin: 10px 0;
+}
+
+input[type="checkbox"] {
+    appearance: none; 
+    width: 20px;
+    height: 20px;
+    border: 2px solid #ffb300;
+    border-radius: 4px;
+    cursor: pointer;
+    outline: none;
+    transition: background-color 0.3s, border-color 0.3s;
+}
+
+input[type="checkbox"]:checked {
+    background-color: #FF6F61;
+    border-color: #FF6F61;
+}
+
+#checkbox {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #c49a88;
+    border-radius: 20px;
+    background-color: #fff;
+}

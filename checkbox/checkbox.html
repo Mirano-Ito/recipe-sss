@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>チェックボックスのサンプル</title>
+    <link rel="stylesheet" href="checkbox.css">
+    <script src="checkbox.js" defer></script>
+</head>
+<body>
+    <h1>ニラ玉</h1>
+    <div class="info">
+        <form id="checklist">
+            <label>
+                <input type="checkbox" id="checkbox1"> 卵:2個
+            </label><br>
+            <label>
+                <input type="checkbox" id="checkbox2"> ニラ:1束
+            </label><br>
+            <label>
+                <input type="checkbox" id="checkbox3"> 塩胡椒:少々
+            </label><br>
+        </form>
+        <div id="result"></div>
+    </div>
+    <div id="checkbox2-container" style="display: none;">
+        <h2>1</h2>
+        <label>
+            <input type="checkbox" id="step1"> ニラを3cmごとに切ります。
+        </label>
+    </div>
+
+    <div id="checkbox3-container" style="display: none;">
+        <h2>2</h2>
+        <label>
+            <input type="checkbox" id="step2"> 卵をボウルに割り入れ溶きます。
+        </label>
+    </div>
+    <div id="checkbox4-container" style="display: none;">
+        <h2>3</h2>
+        <label>
+            <input type="checkbox" id="step3"> フライパンを火にかけ、大さじ１の油を加えます。
+        </label>
+    </div>
+</body>
+</html>
